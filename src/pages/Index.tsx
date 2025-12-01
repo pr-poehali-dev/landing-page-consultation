@@ -62,7 +62,7 @@ const Index = () => {
                 Консультации по Wildberries и Ozon
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Помогаю продавцам улучшить карточки, увеличить продажи и избежать типичных ошибок на маркетплейсах.
+                Помогаю продавцам понять ошибки, улучшить карточки и увеличить продажи.
               </p>
               <Button 
                 size="lg" 
@@ -98,30 +98,31 @@ const Index = () => {
                   <Icon name="Clock" className="text-primary" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900">40 минут</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900">40 минут — 2 500 ₽</h3>
                   <p className="text-primary font-medium">Аудит карточек</p>
                 </div>
               </div>
+              <p className="text-sm text-gray-600 mb-4">Подходит, если нужно:</p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Разбор до 5 карточек</span>
+                  <span>Разобрать до 5 карточек</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Анализ SEO</span>
+                  <span>Посмотреть SEO</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Ошибки в оформлении</span>
+                  <span>Найти ошибки</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Рекомендации по фото/видео</span>
+                  <span>Получить чёткие рекомендации</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Быстрый план правок</span>
+                  <span>Получить мини-план правок</span>
                 </li>
               </ul>
             </Card>
@@ -132,30 +133,34 @@ const Index = () => {
                   <Icon name="Zap" className="text-primary" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900">1,5 часа</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900">1,5 часа — 4 500 ₽</h3>
                   <p className="text-primary font-medium">Полный разбор</p>
                 </div>
               </div>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Анализ ниши</span>
+                  <span>Ниши</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Изучение конкурентов</span>
+                  <span>Конкурентов</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Разбор карточек и SEO</span>
+                  <span>Карточек и SEO</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Настройка рекламы</span>
+                  <span>Рекламы</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Детальный план действий</span>
+                  <span>Стратегии продвижения</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
+                  <span>Детальный план действий на 7–14 дней</span>
                 </li>
               </ul>
             </Card>
@@ -166,14 +171,15 @@ const Index = () => {
                   <Icon name="Rocket" className="text-primary" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900">60 минут</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900">60 минут — 4 000 ₽</h3>
                   <p className="text-primary font-medium">Запуск товара</p>
                 </div>
               </div>
+              <p className="text-sm text-gray-600 mb-4">Для тех, кто запускает товар:</p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Проверка спроса</span>
+                  <span>Оценка спроса</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
@@ -181,7 +187,7 @@ const Index = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Анализ рисков</span>
+                  <span>Анализ конкурентов</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
@@ -189,7 +195,7 @@ const Index = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Стратегия продвижения</span>
+                  <span>Подготовка к продвижению</span>
                 </li>
               </ul>
             </Card>
@@ -200,7 +206,7 @@ const Index = () => {
                   <Icon name="Users" className="text-primary" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900">1 месяц</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900">1 месяц — 14 000 ₽</h3>
                   <p className="text-primary font-medium">Сопровождение</p>
                 </div>
               </div>
@@ -211,19 +217,19 @@ const Index = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Помощь в реализации правок</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
                   <span>Ответы на вопросы</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Разбор проблем в процессе</span>
+                  <span>Помощь в реализации правок</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Постоянная поддержка</span>
+                  <span>Разбор проблемных ситуаций</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Icon name="Check" className="text-primary flex-shrink-0 mt-1" size={18} />
+                  <span>Контроль прогресса</span>
                 </li>
               </ul>
             </Card>
